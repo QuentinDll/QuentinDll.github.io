@@ -1,79 +1,38 @@
-body{
-  background-image: url("../img/657580.jpg");
-  background-repeat: repeat;
-  background-position: center top;
-  background-color: #000;
-  color: #FFF;
-}
-#topnav{
-  background-color: #474747;
-  height: 60px;
-  box-shadow: 0 5px 10px white;
-  margin-bottom: 20px;
-}
-#topnav a{
-  color: #FFF;
-  text-shadow: 0 4px 8px black;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 18px;
-}
-#topnav a:hover{
-  background-color: #5A7A93;
-  color: #FFF;
-}
-#topnav a:active{
-  background-color: #474747;
-  color: #FFF;
-}
-#navbutton{
-  background-color: #555;
-  text-align: center;
-  text-decoration: overline underline;
-}
-#collapse_navbar{
-  background-color: #474747;
-}
-#wrapperall{
-  margin: 0 auto;
-  margin-top: 100px;
-}
-fieldset{
-  margin-bottom: 70px;
-  background-color: #777777;
-  box-shadow: 0 5px 10px black;
-  font-size: 18px;
-  color: #FFF;
-}
+body{background-image: url("../img/desktop-3246124.jpg"); background-repeat: repeat; background-position: center top; background-color: #000; color: #FFF;}
+
+#topnav{background-color: #474747; height: 60px; box-shadow: 0 5px 10px white; margin-bottom: 20px;}
+
+#topnav a{color: #FFF; text-shadow: 0 4px 8px black; text-align: left; padding: 14px 16px; text-decoration: none; font-size: 18px;}
+
+#topnav a:hover{background-color: #5A7A93; color: #FFF;}
+
+#topnav a:active{background-color: #474747; color: #FFF;}
+
+#navbutton{background-color: #555; text-align: center; text-decoration: overline underline;}
+
+#collapse_navbar{background-color: #474747;}
+
+#wrapperall{margin: 0 auto; margin-top: 100px;}
+
+fieldset{margin-bottom: 70px; background-color: #777777; box-shadow: 0 5px 10px black; font-size: 18px; color: #FFF;}
+
 progress{text-align: center; height: 1.5em; background: #5A7A93;}
 progress::-moz-progress-bar { background: #045E78;}
 progress::-webkit-progress-bar { background: #045E78;}
 progress::-webkit-progress-value { background: #045E78;}
-p{
-  text-align: center;
-}
-fieldset>legend{
-  color: #FFF;
-  font-size: 20px;
-  text-shadow: 0 4px 8px black;
-}
-a{
-  text-decoration: none;
-  color: #FFF;
-}
-a:active{
-  text-decoration: none;
-  color: #FFF;
-}
-a:hover{
-  text-decoration: none;
-  color: #5A7A93;
-}
-#footer{
-  background-color: #594F4F;
-  color: #FFF;
-  text-shadow: 0 4px 8px black;
-  font-size: 12px;
-  text-align: center;
-}
+
+p{text-align: center;}
+
+fieldset>legend{color: #FFF; font-size: 20px; text-shadow: 0 4px 8px black;}
+
+a{text-decoration: none; color: #FFF;}
+
+a:active{text-decoration: none; color: #FFF;}
+
+a:hover{text-decoration: none; color: #5A7A93;}
+
+.scrollToTop{width:30px; height:30px; padding:10px; position:fixed; top:75px; right:40px; display:none;}
+
+.scrollToTop:hover{text-decoration:none;}
+
+#footer{background-color: #594F4F; color: #FFF; text-shadow: 0 4px 8px black; font-size: 12px; text-align: center;}
